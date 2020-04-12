@@ -2,7 +2,7 @@
 
 ## Установка
 ```
-git clone https://github.com/cia1/fl-test.gif
+git clone https://github.com/cia1/fl-test.git
 cd fl-test
 docker-compose up -d && docker-compose exec php-fpm composer install
 ```
