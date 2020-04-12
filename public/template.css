@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0 10px;
+    font-family: Arial;
+}
+
+h1 {
+    margin-bottom: 2%;
+    border-bottom: 1px solid #eee;
+}
+
+.messageError, .messageSuccess {
+    margin-bottom:2%;
+    padding: 0.5% 1%;
+    border-radius: 3px;
+    color: white;
+}
+.messageError {
+    border: 1px solid #a00;
+    background: #ff9294;
+}
+.messageSuccess {
+    border: 1px solid #0a0;
+    background: #659433;
+}
